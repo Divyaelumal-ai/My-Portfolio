@@ -16,6 +16,7 @@ ul{
   border: 2px black;
   background-color: white;
   margin-top: 0px;
+  flex-wrap: wrap;
 }
 
 .about-container
@@ -65,13 +66,15 @@ body{
   gap: 20px;
   padding: 20px;
   border-radius: 8px;
+  flex-direction: row;
+  flex-wrap: wrap;
 }
 
 .skill {
   flex: 1;
   text-align: center;
   padding: 10px;
-  background-color: rgb(141, 130, 130);
+  background-color: #e0f0ff;;
   border-radius: 5px;
   height: 200px;
   transition: transform 0.2s ease-in-out; 
